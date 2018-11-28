@@ -21,21 +21,11 @@ public class HostType {
     /**
      * 多少种Host类型
      */
-    public static final int TYPE_COUNT = 3;
-
-    /**
-     * phdyw的host
-     */
-    public static final int PHDYW_TV = 1;
-
-    /**
-     * douban的host
-     */
-    public static final int DOUBAN_TV = 2;
+    public static final int TYPE_COUNT = 1;
 
     /**
      * 影评的host
      */
-    public static final int YINGPIN_TV = 3;
+    public static final int YINGPIN_TV = 1;
 
 }

@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">BaseMVP</string>
+
+    <string name="str_end">已是最后哦~</string>
 </resources>

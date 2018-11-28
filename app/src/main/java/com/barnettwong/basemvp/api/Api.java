@@ -131,10 +131,10 @@ public class Api {
      * @return
      */
     public static OkHttpClient getOkHttpClient(){
-        Api retrofitManager = sRetrofitManager.get(HostType.PHDYW_TV);
+        Api retrofitManager = sRetrofitManager.get(HostType.YINGPIN_TV);
         if (retrofitManager == null) {
-            retrofitManager = new Api(HostType.PHDYW_TV);
-            sRetrofitManager.put(HostType.PHDYW_TV, retrofitManager);
+            retrofitManager = new Api(HostType.YINGPIN_TV);
+            sRetrofitManager.put(HostType.YINGPIN_TV, retrofitManager);
         }
         return retrofitManager.okHttpClient;
     }

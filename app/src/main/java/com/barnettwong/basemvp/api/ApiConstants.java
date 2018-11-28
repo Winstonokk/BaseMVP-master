@@ -20,11 +20,6 @@ public class ApiConstants {
     /**
      * 公司项目网络请求基本地址
      */
-    public static final String NET_HOST = "http://api.phmovie.net/";
-    public static final String NEWS__DETAIL=NET_HOST+"v1/news/";
-
-    public static final String API_DOUBAN = "https://api.douban.com/";
-
     public static final String YINGPIN_HOST="https://api-m.mtime.cn/";
 
 
@@ -37,12 +32,6 @@ public class ApiConstants {
     public static String getHost(int hostType) {
         String host;
         switch (hostType) {
-            case HostType.PHDYW_TV:
-                host = NET_HOST;
-                break;
-            case HostType.DOUBAN_TV:
-                host = API_DOUBAN;
-                break;
             case HostType.YINGPIN_TV:
                 host = YINGPIN_HOST;
                 break;
