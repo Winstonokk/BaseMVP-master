@@ -135,7 +135,7 @@ public abstract class BaseActivity<T extends BasePresenter, E extends BaseModel>
      * 着色状态栏（4.4以上系统有效）
      */
     protected void SetStatusBarColor(){
-        StatusBarCompat.setStatusBarColor(this, ContextCompat.getColor(this,R.color.statusbar_color));
+        StatusBarCompat.setStatusBarColor(this, ContextCompat.getColor(this,R.color.main_color));
     }
     /**
      * 着色状态栏（4.4以上系统有效）
